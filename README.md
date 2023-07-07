@@ -9,12 +9,12 @@ Questo script Python consente di generare traffico testuale verso un insieme di 
 
 ## Utilizzo
 
-1. Esegui lo script `monkey_traffic_generator.py` utilizzando Python.
+1. Esegui lo script `monke-jammer.py` utilizzando Python.
 2. Segui le istruzioni visualizzate a schermo.
 
-All'avvio dello script, verrà richiesto di inserire il CIDR di destinazione nel formato "x.x.x.x/x". Successivamente, verrà richiesto di specificare le porte dei servizi separandole con una virgola.
+All'avvio dello script, verrà richiesto di inserire il CIDR di destinazione nel formato "x.x.x.x/x". Successivamente, verrà richiesto di specificare le porte dei servizi separandole con una virgola, infine sarà richiesto il numero di squadre partecipanti.
 
-Il programma genererà quindi traffico testuale alle porte specificate verso tutti gli indirizzi IP all'interno del CIDR. Verrà utilizzato il terzo ottetto dell'indirizzo IP come variabile, andando da 1 a 255. Ogni invio di traffico sarà separato da una pausa di 30 secondi.
+Il programma genererà quindi traffico testuale alle porte specificate verso tutti gli indirizzi IP all'interno del CIDR. Verrà utilizzato il terzo ottetto dell'indirizzo IP come variabile, andando da 1 al numero di squadre in gioco.
 
 ## Personalizzazione
 
